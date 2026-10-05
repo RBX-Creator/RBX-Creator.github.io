@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Befehle — Vertex Bot | 83 Slash-Commands</title>
-  <meta name="description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien: Moderation, AutoMod, Tickets, Economy, Fun, Privacy und mehr." />
+  <meta name="description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://RBX-Creator.github.io/commands/" />
   <link rel="alternate" hreflang="de" href="https://RBX-Creator.github.io/commands/" />
@@ -13,23 +13,24 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Vertex" />
   <meta property="og:title" content="Befehle — Vertex Bot | 83 Slash-Commands" />
-  <meta property="og:description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien: Moderation, AutoMod, Tickets, Economy, Fun, Privacy und mehr." />
+  <meta property="og:description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien." />
   <meta property="og:url" content="https://RBX-Creator.github.io/commands/" />
-  <meta property="og:image" content="https://RBX-Creator.github.io/assets/img/logo.svg" />
+  <meta property="og:image" content="https://RBX-Creator.github.io/assets/img/og-image.svg" />
   <meta property="og:locale" content="de_DE" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Befehle — Vertex Bot | 83 Slash-Commands" />
-  <meta name="twitter:description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien: Moderation, AutoMod, Tickets, Economy, Fun, Privacy und mehr." />
-  <meta name="twitter:image" content="https://RBX-Creator.github.io/assets/img/logo.svg" />
+  <meta name="twitter:description" content="Alle Vertex Slash-Befehle mit Suche und Kategorien." />
+  <meta name="twitter:image" content="https://RBX-Creator.github.io/assets/img/og-image.svg" />
   <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
-<body>
+<body class="page-fade">
   <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
   <header class="nav">
     <div class="container nav-inner">
-      <a class="brand" href="../index.html"><img src="../assets/img/logo.svg" alt="Vertex" width="40" height="40" /><span>Vertex</span></a>
+      <a class="brand" href="../index.html"><img src="" data-avatar="1" alt="Vertex" width="40" height="40" /><span>Vertex</span></a>
       <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Menu">☰</button>
       <nav class="nav-links" id="nav-links">
         <a href="../index.html" data-i18n="nav_home">Start</a>
@@ -62,10 +63,12 @@
       </div>
     </section>
   </main>
+  <button type="button" class="back-top" id="back-top" data-i18n-aria="back_top" aria-label="Nach oben">↑</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <footer class="footer">
     <div class="container footer-grid">
       <div>
-        <div class="footer-brand"><img src="../assets/img/logo.svg" alt="" width="32" height="32" /><span>Vertex</span></div>
+        <div class="footer-brand"><img src="" data-avatar="1" alt="" width="32" height="32" /><span>Vertex</span></div>
         <p style="color:var(--muted);margin:0;max-width:320px" data-i18n="foot_tag">All-in-one Discord-Bot — freundlich, mächtig, gratis.</p>
       </div>
       <div>
@@ -83,11 +86,12 @@
         <a href="../privacy/">/privacy</a>
       </div>
     </div>
-    <p class="footer-copy" data-i18n="foot_copy">© 2026 Vertex · Made with 💜</p>
+    <p class="footer-copy" data-i18n="foot_copy">© 2026 Vertex · Made with 🤍</p>
   </footer>
   <script src="../assets/js/config.js"></script>
   <script src="../assets/js/i18n.js"></script>
   <script src="../assets/js/commands.js"></script>
+  <script src="../assets/js/media.js"></script>
   <script src="../assets/js/main.js"></script>
 </body>
 </html>
